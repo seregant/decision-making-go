@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "HuNuSv4SB9SuSJ5BWrBYhHqhqic=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "b7156195f7f3415f97c20abbd6aff894b847fee8",
+			"revisionTime": "2019-05-08T07:12:19Z"
+		}
+	],
+	"rootPath": "github.com/seregant/decision-making-go"
+}
