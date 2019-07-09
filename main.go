@@ -97,7 +97,6 @@ func main() {
 		}
 		start++
 	}
-	fmt.Println(finalDecsion)
 
 	fmt.Println("Rekomendasi jenis usaha : ")
 	for _, id := range finalDecsion {
@@ -107,6 +106,15 @@ func main() {
 				fmt.Println(dataOutput.Decision)
 			}
 		}
+	}
+
+	// fmt.Println(finalData)
+	if m > 10 {
+		fmt.Println("Tingkat keyakinan TINGGI")
+	} else if 6 < m && m < 11 {
+		fmt.Println("Tingkat keyakinan SEDANG")
+	} else {
+		fmt.Println("Tingkat keyakinan RENDAH")
 	}
 
 }
